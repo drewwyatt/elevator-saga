@@ -20,7 +20,7 @@ export const registerIdleBehavior = (queue: Queue, elevators: Elevator[]) => {
 
       assertNotStopped(direction)
       if (direction === Direction.up) {
-        elevator.goingDownIndicator(true)
+        elevator.goingUpIndicator(true)
       } else {
         elevator.goingDownIndicator(true)
       }
